@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container text-center my-5 ">
+        <div  id="signUp" class="sign w-75 m-auto p-5 ">
+            <h1 class="my-3">Smart Login System</h1>
+            <div class="form-floating mb-2">
+                <input oninput="" type="text" class="input form-control" id="enterName" placeholder="name@example.com">
+                <label for="enterName"><i class="fa-solid fa-file-signature"></i> Enter your name</label>
+                <p class="alert-danger text-danger d-none text-start mb-0" id="masName">Name is not valid</p>
+            </div>
+            <div class="form-floating mb-2">
+                <input oninput="" type="email" class="input form-control" id="enterEmail"
+                    placeholder="name@example.com">
+                <label for="enterEmail"><i class="fa-regular fa-envelope"></i> Enter your email</label>
+                <p class="alert-danger text-danger d-none text-start mb-0" id="masEmail">Email is not valid</p>
+                <p class="d-none alert alert-danger text-danger" id="example"></p>
+            </div>
+            <div class="form-floating mb-4">
+                <input type="password" class="input form-control" id="enterPassword" placeholder="Password">
+                <label for="enterPassword"><i class="fa-solid fa-unlock-keyhole"></i> Enter password</label>
+                <p class="alert-danger text-danger d-none text-start mb-0" id="masPassword">Password is not valid</p>
+            </div>
+            <div id="msg"></div>
+
+            <button id="signUBtn" type="submit" class="form-control btn btn-outline-info mb-4">Sign Up</button>
+            <p id="sign-mo">You have an account? <a  href="./login.html"> Sign In</a></p>
+        </div>
+
+    </div>
+    </div>
+
+    </div>
+    <!-- ========================================================= -->
+
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/hamada.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

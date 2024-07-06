@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container text-center my-5 ">
+        <div id="signIn" class="sign w-75 m-auto p-5">
+            <h1 class="my-3">Smart Login System</h1>
+            <div class="form-floating mb-2">
+                <input type="email" class="input form-control" id="inputEmail"
+                    placeholder="name@example.com">
+                <label for="inputEmail"><i class="fa-regular fa-envelope"></i> Enter your email</label>
+                <p id="msgEmail" class="alert-info mt-2 text-danger d-none">is not valid</p>
+            </div>
+            <div class="form-floating mb-4">
+                <input type="password" class="input form-control " id="inputPassword"
+                    placeholder="Password">
+                <label for="inputPassword"><i class="fa-solid fa-unlock-keyhole"></i> Enter your password</label>
+                <p id="msgPas" class="alert-info mt-2 d-none text-danger">The password does not match</p>
+                <div  id="check-input"></div>
+            </div>
+
+            <button id="log-Btn" class="btn btn-outline-info form-control">log in</button> 
+            <p id="sign-jo" class="my-3">Don’t have an account? <a  href="./index.html"> sign Up</a></p>
+
+
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/hamada.js"></script>
+            <script src="js/index.js"></script>
+</body>
+</div>
+</body>
+
+</html>
